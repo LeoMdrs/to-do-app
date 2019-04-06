@@ -1,0 +1,19 @@
+﻿#Backend
+
+npm init --yes
+
+npm i
+  express (controle de rotas)
+  express-handlebars (motor de plantilhas - extender html)
+  express-session (criar sessões no servidor)
+  method-override (extender as funcionalidades de formulários)
+  mongoose (modulo de conexão com bd mongodb)
+  passport (autenticar usuarios)
+  passport-local
+  bcryptjs (converter texto em hash)
+  connect-flash (enviar mensagem entre views - erros, avisos...)
+
+npm i nodemon -D (para não precisar reiniciar servidor quando fizer mudanças
+		  o -D instala localmente e precisa configurar no package.json: "scripts": { "dev": "nodemon src/index.js" },
+		  o -g instala globalmente)
+
